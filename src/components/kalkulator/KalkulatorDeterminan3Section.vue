@@ -1,25 +1,5 @@
 <template>
-  <!-- Materi Determinan -->
-  <div class="materi-determinan mx-auto mb-10 max-w-sm">
-    <div class="text-xl font-medium text-black text-center">Determinan</div>
-    <p>
-      Determinan ini merupakan besaran skalar atau besaran yang hanya memiliki besar/nilai. Unsur
-      matriks yang dimaksud adalah unsur matriks persegi. Apa itu matriks persegi? Matriks persegi
-      adalah matriks yang memiliki jumlah baris dan kolom yang sama.
-    </p>
-    <div class="mt-5">
-      <h2 class="text-xl font-medium text-black">1. Matriks Ordo 2 x 2</h2>
-      <img src="../assets/foto_rumus/matriks-ordo-2x2.png" alt="matriks-ordo-2x2" />
-      <img src="../assets/foto_rumus/determinan-ordo-2x2.png" alt="determinan-ordo-2x2" />
-    </div>
-    <div class="mt-5">
-      <h2 class="text-xl font-medium text-black">2. Matriks Ordo 3 x 3</h2>
-      <img src="../assets/foto_rumus/matriks-ordo-3x3.png" alt="matriks-ordo-3x3" />
-      <img src="../assets/foto_rumus/determinan-ordo-3x3.png" alt="determinan-ordo-3x3" />
-    </div>
-  </div>
-
-  <!-- Kalkulator Determinan -->
+  <!-- kalkulator determinan ordo 3 -->
   <div class="flex flex-col items-center justify-center mt-10">
     <!-- Input Matrix -->
     <div class="flex items-center justify-center space-x-4 mb-6">
@@ -37,6 +17,12 @@
           class="p-2 border rounded w-16 text-center"
           placeholder="b"
         />
+        <input
+          v-model="matrix[0][2]"
+          type="number"
+          class="p-2 border rounded w-16 text-center"
+          placeholder="c"
+        />
       </div>
       <div class="flex flex-col">
         <div class="invisible">Placeholder</div>
@@ -44,13 +30,40 @@
           v-model="matrix[1][0]"
           type="number"
           class="p-2 border rounded w-16 text-center"
-          placeholder="c"
+          placeholder="d"
         />
         <input
           v-model="matrix[1][1]"
           type="number"
           class="p-2 border rounded w-16 text-center"
-          placeholder="d"
+          placeholder="e"
+        />
+        <input
+          v-model="matrix[1][2]"
+          type="number"
+          class="p-2 border rounded w-16 text-center"
+          placeholder="f"
+        />
+      </div>
+      <div class="flex flex-col">
+        <div class="invisible">Placeholder</div>
+        <input
+          v-model="matrix[2][0]"
+          type="number"
+          class="p-2 border rounded w-16 text-center"
+          placeholder="g"
+        />
+        <input
+          v-model="matrix[2][1]"
+          type="number"
+          class="p-2 border rounded w-16 text-center"
+          placeholder="h"
+        />
+        <input
+          v-model="matrix[2][2]"
+          type="number"
+          class="p-2 border rounded w-16 text-center"
+          placeholder="i"
         />
       </div>
     </div>
@@ -71,8 +84,9 @@ export default {
   data() {
     return {
       matrix: [
-        [null, null],
-        [null, null]
+        [null, null, null],
+        [null, null, null],
+        [null, null, null]
       ],
       showDeterminant: false,
       determinant: null,
@@ -89,15 +103,15 @@ export default {
   },
   methods: {
     calculateDeterminant() {
-      const [[a, b], [c, d]] = this.matrix
-      const determinant = a * d - b * c
+      const [[a, b, c], [d, e, f], [g, h, i]] = this.matrix
+      const determinant = a * e * i + b * f * g + c * d * h - c * e * g - b * d * i - a * f * h
 
       this.showDeterminant = true
       this.determinant = determinant
       this.steps = [
-        `Determinan = ad - bc`,
-        `Determinan = (${a} * ${d}) - (${b} * ${c})`,
-        `Determinan = ${a * d} - ${b * c}`,
+        `Determinan = aei + bfg + cdh - ceg - bdi - afh`,
+        `Determinan = (${a} * ${e} * ${i}) + (${b} * ${f} * ${g}) + (${c} * ${d} * ${h}) - (${c} * ${e} * ${g}) - (${b} * ${d} * ${i}) - (${a} * ${f} * ${h})`,
+        `Determinan = ${a * e * i} + ${b * f * g} + ${c * d * h} - ${c * e * g} - ${b * d * i} - ${a * f * h}`,
         `Determinan = ${determinant}`
       ]
     }

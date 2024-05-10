@@ -5,13 +5,15 @@ import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
-  <NavbarSection />
+  <div class="bg-white">
+    <NavbarSection />
 
-  <div class="mt-20">
-    <router-view></router-view>
+    <div class="mt-20">
+      <router-view></router-view>
+    </div>
+
+    <FooterSection />
   </div>
-
-  <FooterSection />
 </template>
 
 <style scoped></style>
