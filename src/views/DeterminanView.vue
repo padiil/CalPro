@@ -1,11 +1,13 @@
 <template lang="">
   <div>
-    <Determinan2Section />
-    <Determinan3Section />
+    <MateriDeterminan />
+    <KalkulatorDeterminan2Section />
+    <kalkulatorDeterminan3Section />
   </div>
 </template>
 <script setup>
-import Determinan2Section from '@/components/Determinan2Section.vue'
-import Determinan3Section from '@/components/Determinan3Section.vue'
+import MateriDeterminan from '@/components/materi/MateriDeterminan.vue'
+import KalkulatorDeterminan2Section from '@/components/kalkulator/KalkulatorDeterminan2Section.vue'
+import KalkulatorDeterminan3Section from '@/components/kalkulator/KalkulatorDeterminan3Section.vue'
 </script>
 <style lang=""></style>

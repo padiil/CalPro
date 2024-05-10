@@ -2,7 +2,7 @@
   <nav class="bg-gray-800 p-4">
     <div class="container mx-auto flex justify-between items-center">
       <div>
-        <a href="#" class="text-white font-bold text-lg">Logo</a>
+        <a href="#" class="text-white font-bold text-lg">CalPro</a>
       </div>
       <div class="hidden md:block">
         <ul class="flex space-x-4">
@@ -11,9 +11,11 @@
           <li class="relative" @click="toggleDropdown">
             <a href="#" class="text-white cursor-pointer">Materi</a>
             <ul v-show="dropdownOpen" class="absolute left-0 mt-2 bg-gray-700 rounded-md shadow-lg">
-              <li><a href="#" class="block px-4 py-2 text-white">Deret</a></li>
-              <li><a href="#" class="block px-4 py-2 text-white">Determinan</a></li>
-              <li><a href="#" class="block px-4 py-2 text-white">Vector</a></li>
+              <router-link to="/deret" class="block px-4 py-2 text-white">Deret</router-link>
+              <router-link to="/determinan" class="block px-4 py-2 text-white"
+                >Determinan</router-link
+              >
+              <router-link to="/vektor" class="block px-4 py-2 text-white">Vektor</router-link>
             </ul>
           </li>
         </ul>
@@ -51,12 +53,6 @@
       </ul>
     </div>
   </nav>
-
-  <router-link to="/about">About</router-link>
-  <router-link to="/">Home</router-link>
-  <router-link to="/deret">Deret</router-link>
-  <router-link to="/determinan">Determinan</router-link>
-  <router-link to="/vektor">Vektor</router-link>
 </template>
 
 <script>

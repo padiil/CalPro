@@ -1,11 +1,13 @@
 <template lang="">
   <div>
-    <VektorDotSection />
-    <VektorCrossSection />
+    <MateriVektor />
+    <KalkulatorVektorDotSection />
+    <KalkulatorVektorCrossSection />
   </div>
 </template>
 <script setup>
-import VektorDotSection from '@/components/VektorDotSection.vue'
-import VektorCrossSection from '@/components/VektorCrossSection.vue'
+import MateriVektor from '@/components/materi/MateriVektor.vue'
+import KalkulatorVektorDotSection from '@/components/kalkulator/KalkulatorVektorDotSection.vue'
+import KalkulatorVektorCrossSection from '@/components/kalkulator/KalkulatorVektorCrossSection.vue'
 </script>
 <style lang=""></style>
