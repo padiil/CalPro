@@ -1,22 +1,25 @@
 <template lang="">
   <div>
-    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl border flex items-center space-x-4">
       <div>
         <div class="text-xl font-medium text-black">Deret Geometri</div>
         <p class="text-gray-500">Masukkan nilai awal, rasio, dan nomor ke-n.</p>
-        <div class="mt-4">
+        <div class="mt-4 flex justify-between items-center">
+          <label for="Nilai_awal">Nilai awal : </label>
           <input
             v-model="firstNumber"
             type="number"
-            placeholder="Nilai awal"
-            class="p-2 border rounded"
+            id="Nilai_awal"
+            class="p-2 border rounded w-[55%]"
           />
         </div>
-        <div class="mt-4">
-          <input v-model="ratio" type="number" placeholder="Rasio" class="p-2 border rounded" />
+        <div class="mt-4 flex justify-between items-center">
+          <label for="Rasio">Rasio : </label>
+          <input v-model="ratio" type="number" id="Rasio" class="p-2 border rounded w-[55%]" />
         </div>
-        <div class="mt-4">
-          <input v-model="n" type="number" placeholder="Nomor ke-n" class="p-2 border rounded" />
+        <div class="mt-4 flex justify-between items-center">
+          <label for="Nomor_ke-n">Nomor ke-n : </label>
+          <input v-model="n" type="number" id="Nomor ke-n" class="p-2 border rounded w-[55%]" />
         </div>
         <div class="mt-4">
           <p>Deret: {{ sequence }}</p>
