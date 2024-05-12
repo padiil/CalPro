@@ -8,7 +8,7 @@ import FooterSection from './components/FooterSection.vue'
   <div class="bg-white">
     <NavbarSection />
 
-    <div class="mt-20">
+    <div class="mt-14">
       <router-view></router-view>
     </div>
 
