@@ -26,13 +26,13 @@
               </p>
             </blockquote>
             <figcaption class="font-medium">
-              <div class="text-white-500 text-sky-400">Fajar Geran Arifim</div>
+              <div class="text-white-500 text-sky-400">Fajar Geran Arifin</div>
               <div class="text-white">membuat page tentang</div>
             </figcaption>
             <a href="https://www.instagram.com/qx.nkp_amv/"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
    style="text-align: center;">
-  <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
+  <p class="text-stone-50 hover uppercase subpixel-afntialiased w-60 mx-auto">Instagram Saya</p>
 </a>
           </div>
         </figure>
