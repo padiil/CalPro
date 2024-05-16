@@ -2,7 +2,7 @@
   <div>
     <!-- Materi Aritmetik-->
     <div class="materi-aritmetika space-y-4 mx-auto mb-10 max-w-sm">
-      <div class="text-xl font-medium text-black">1. Barisan dan Deret Aritmetika</div>
+      <div class="text-xl font-medium text-black">Barisan dan Deret Aritmetika</div>
       <p>
         Barisan aritmatika merupakan barisan bilangan yang memiliki beda atau selisih tetap antara
         dua suku yang berurutan.
@@ -37,7 +37,7 @@
         aritmetikanya hanya sampai suku yang diperintahkan saja.
       </p>
       <div class="rumus-sn-aritmetika">
-        <div class="">
+        <div class="flex justify-center items-center mb-5">
           <img
             src="/src/assets/foto_rumus/rumus-sn-aritmetika.png"
             alt="rumus-sn-aritmetika"
@@ -53,8 +53,8 @@
     </div>
 
     <!-- Materi Geometri -->
-    <div class="materi-aritmetika space-y-4 mx-auto mb-10 max-w-sm">
-      <div class="text-xl font-medium text-black">2. Barisan dan Deret Geometri</div>
+    <div class="materi-geometri space-y-4 mx-auto mb-10 max-w-sm">
+      <div class="text-xl font-medium text-black">Barisan dan Deret Geometri</div>
       <p>
         Deret geometri terbentuk dari barisan bilangan yang suku-suku berikutnya diperoleh dari
         hasil kali atau bagi suku sebelumya.
@@ -65,11 +65,13 @@
         diterapkan.
       </p>
       <div class="rumus-r-geometri font-medium text-black">
-        <img
-          src="/src/assets/foto_rumus/rumus-r-geometri.jpg"
-          alt="rumus-r-geometri"
-          style="width: 120px"
-        />
+        <div class="flex justify-center items-center">
+          <img
+            src="/src/assets/foto_rumus/rumus-r-geometri.jpg"
+            alt="rumus-r-geometri"
+            style="width: 120px"
+          />
+        </div>
         <div class="text-base">
           <p>Keterangan :</p>
           <p>r = Rasio</p>
