@@ -1,8 +1,7 @@
 <template>
-  <div class="animation1"></div>
   
-  <div class="opacity">
-  <div class="my-8 text-2xl flex items-center justify-center animate-bounce">
+  <div class="opacity my-24">
+  <div class="my-8 mt-6 text-2xl flex items-center justify-center animate-bounce">
     <img src="/src/assets/foto_about/bigtdownarrow_83688.png" alt="Gambar" class="w-8 h-8 mr-2">
     Scroll ke bawah!
   </div>
@@ -11,7 +10,7 @@
     <!---->
     <div class="scroll-smooth">
       <div class="scale:-500">
-        <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 mb-8" >
+        <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800" >
           <img
             class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100 bg-center "
             src="/src/assets/foto_about/Gambar WhatsApp 2024-05-16 pukul 11.22.59_9f683f08.jpg"
@@ -21,13 +20,13 @@
           />
           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
-              <p class="text-lg font-medium text-white">
+              <p class="text-lg font-medium text-white ">
                 “tugas saya disini saya mengembangkan page tentang dan mengembangkannya dengan baik,<br />
                 untuk anak muda terus lah berkembang dan selalu belajar dari kesalahan”
               </p>
             </blockquote>
             <figcaption class="font-medium">
-              <div class="text-white-500 dark:text-sky-400">Fajar Geran Arifim</div>
+              <div class="text-white-500 text-sky-400">Fajar Geran Arifim</div>
               <div class="text-white">membuat page tentang</div>
             </figcaption>
             <a href="https://www.instagram.com/qx.nkp_amv/"
@@ -39,7 +38,7 @@
         </figure>
       </div>
     <!---->
-    <figure class="md:flex bg-slate-100  p-8 md:p-0 dark:bg-slate-800 mb-8">
+    <figure class="md:flex bg-slate-100  p-8 md:p-0 bg-slate-800 mb-8">
       <img
         class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
         src="/src/assets/foto_about/Gambar WhatsApp 2024-05-11 pukul 18.49.01_d4b86803.jpg"
@@ -55,7 +54,7 @@
           </p>
         </blockquote>
         <figcaption class="font-medium">
-          <div class="text-white-500 dark:text-sky-400">Talitha Ramadhani Nur Azizah</div>
+          <div class="text-white-500 text-sky-400">Talitha Ramadhani Nur Azizah</div>
           <div class="text-white">content writer</div>
         </figcaption>
         <a href="https://www.instagram.com/talitharna_?igsh=eXd6YWV2eGY5OWgw"
@@ -70,7 +69,7 @@
       
     </figure>
     <!---->
-    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 mb-8">
+    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
         class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100 bg-contain"
         src="/src/assets/foto_about/Gambar WhatsApp 2024-05-12 pukul 09.58.15_334a9976.jpg"
@@ -86,7 +85,7 @@
           </p>
         </blockquote>
         <figcaption class="font-medium">
-          <div class="text-white-500 dark:text-sky-400">Angra Advian Maulana</div>
+          <div class="text-white-500 text-sky-400">Angra Advian Maulana</div>
           <div class="text-white">pencari konsep sekaligus desainer web</div>
         </figcaption>
         <a href="https://www.instagram.com/angraadvian?igsh=MW5jcXBqOTExMXcycg=="
@@ -97,7 +96,7 @@
       </div>
     </figure>
     <!---->
-    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 mb-8">
+    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
         class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
         src="/src/assets/foto_about/bertotot.jpg"
@@ -113,7 +112,7 @@
           </p>
         </blockquote>
         <figcaption class="font-medium">
-          <div class="text-white-500 dark:text-sky-400">Fadhil Gani</div>
+          <div class="text-white-500 text-sky-400">Fadhil Gani</div>
           <div class="text-white">membuat page tentang</div>
         </figcaption>
         <a href="https://www.instagram.com/talitharna_?igsh=eXd6YWV2eGY5OWgw"
@@ -124,7 +123,7 @@
       </div>
     </figure>
     <!---->
-    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 mb-8">
+    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
         class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
         src="/src/assets/foto_about/rai.jpg"
@@ -140,7 +139,7 @@
           </p>
         </blockquote>
         <figcaption class="font-medium">
-          <div class="text-white-500 dark:text-sky-400">Muhammad Rai Akmal</div>
+          <div class="text-white-500 text-sky-400">Muhammad Rai Akmal</div>
           <div class="text-white">Memasukan materi kedalam kodingan</div>
         </figcaption>
         <a href="https://www.instagram.com/mhmmdraiakmal/"
