@@ -10,6 +10,7 @@
         <ul class="flex space-x-4">
           <router-link to="/" class="text-white hover:text-secondary">Beranda</router-link>
           <router-link to="/about" class="text-white hover:text-secondary">Tentang</router-link>
+          <router-link to="/kuis" class="text-white hover:text-secondary">Kuis</router-link>
           <li class="relative" @click="toggleDropdown">
             <a href="#" class="text-white cursor-pointer hover:text-secondary">Materi</a>
             <ul
@@ -64,6 +65,9 @@
         >
         <router-link to="/about" class="block py-2 text-white border-b-2 hover:text-secondary"
           >Tentang</router-link
+        >
+        <router-link to="/kuis" class="block py-2 text-white border-b-2 hover:text-secondary"
+          >Kuis</router-link
         >
         <li class="relative" @click="toggleMobileDropdown">
           <a href="#" class="block py-2 text-white border-b-2 hover:text-secondary">Materi</a>
