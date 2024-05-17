@@ -87,9 +87,9 @@
         </div>
         <div class="text-base">
           <p>Keterangan :</p>
+          <p>U<sub>n</sub> = Suku ke-n</p>
           <p>r = Rasio</p>
           <p>a = Suku pertama</p>
-          <p>U<sub>n</sub> = Suku ke-n</p>
         </div>
       </div>
     </div>

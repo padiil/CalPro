@@ -31,7 +31,7 @@
           />
         </div>
       </div>
-      <div class="mt-5">
+      <div class="mt-10">
         <h2 class="text-xl font-medium text-black mb-3">Matriks Ordo 3 x 3</h2>
         <p>
           Matriks ordo 3x3 adalah sebuah array persegi dengan tiga baris dan tiga kolom. Seperti
