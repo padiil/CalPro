@@ -25,6 +25,11 @@ const router = createRouter({
       component: () => import('../views/VektorView.vue')
     },
     {
+      path: '/kuis',
+      name: 'kuis',
+      component: () => import('../views/KuisView.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
