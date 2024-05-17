@@ -1,4 +1,4 @@
-<template>
+npm<template>
   <div class="bg-white border border-gray-200 rounded-lg shadow p-4 mx-2 sm:mx-20 md:mx-32 lg:mx-0">
     <!-- Tab Menu -->
     <div class="flex mb-4 justify-around">

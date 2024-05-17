@@ -23,7 +23,7 @@
           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
               <p class="text-lg font-medium text-white ">
-                “tugas saya disini saya mengembangkan page tentang dan mengembangkannya dengan baik,<br />
+                “tugas saya adalah mengembangkan page tentang,<br />
                 untuk anak muda terus lah berkembang dan selalu belajar dari kesalahan”
               </p>
             </blockquote>
@@ -32,13 +32,14 @@
               <div class="text-white">membuat page tentang</div>
             </figcaption>
             <a href="https://www.instagram.com/qx.nkp_amv/"
+   target="_blank"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
    style="text-align: center;">
    <div class="text-stone-50 hover uppercase subpixel-afntialiased text-sm px-4 py-2  md:w-60 mx-auto">
-
-     <p >Instagram Saya</p>
+     <p>Instagram Saya</p>
    </div>
 </a>
+
           </div>
         </figure>
     <!---->
@@ -54,7 +55,7 @@
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini saya menyusun materi dan menyusun laporan,<br />
+            “disni saya  menyusun materi dan menyusun laporan,<br />
             Teruslah maju, lari jika bisa, berjalan jika perlu, merangkak jika harus, tapi jangan pernah menyerah pada apapun yang kamu hadapi”
           </p>
         </blockquote>
@@ -64,7 +65,9 @@
         </figcaption>
         <a href="https://www.instagram.com/talitharna_?igsh=eXd6YWV2eGY5OWgw"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
-   style="text-align: center;">
+   style="text-align: center;"
+   target="_blank">
+   
    <div>
      <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
    </div>
@@ -88,17 +91,18 @@
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini Saya sebagai pencari konsep sekaligus desainer web,<br />
+            “tugas saya itu adalah mencari konsep sekaligus membuat desain untuk web,<br />
             Harapan saya agar website ini bisa menginspirasi pembuat website lainnya sekaligus mengajarkan<br /> kalkulus”
           </p>
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-white-500 text-sky-400">Angra Advian Maulana</div>
-          <div class="text-white">pencari konsep sekaligus desainer web</div>
+          <div class="text-white">pencari konsep sekaligus desainer web</div>
         </figcaption>
         <a href="https://www.instagram.com/angraadvian?igsh=MW5jcXBqOTExMXcycg=="
         class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
-        style="text-align: center;">
+        style="text-align: center;"
+        target="_blank">
        <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
      </a>
       </div>
@@ -116,17 +120,18 @@
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya instalasi framework dan setup workspace, serta membuat beberapa komponen dasar.
+            “saya melakukan instalasi framework dan setup workspace, serta membuat beberapa komponen dasar.
             semoga hasil dari project ini bisa bermanfaat.”
           </p>
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-white-500 text-sky-400">Fadhil Gani</div>
-          <div class="text-white">membuat page tentang</div>
+          <div class="text-white">framework dan setup workspace</div>
         </figcaption>
         <a href="https://www.instagram.com/faadilg?igsh=OG5pc3dyZ2c5ZHlv"
         class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
-        style="text-align: center;">
+        style="text-align: center;"
+        target="_blank">
        <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
      </a>
       </div>
@@ -144,7 +149,7 @@
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini saya menambahkan materi yang saya cari dan Memasukannya kedalam kodingan,
+            “yang saya lakukan ialah menambahkan materi yang saya cari dan Memasukannya kedalam kodingan,
             Semoga tahun ini penuh dengan pembelajaran, pertumbuhan, dan kesempatan baru bagi Anda sebagai mahasiswa.”
           </p>
         </blockquote>
@@ -154,7 +159,8 @@
         </figcaption>
         <a href="https://www.instagram.com/mhmmdraiakmal/"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
-   style="text-align: center;">
+   style="text-align: center;"
+   target="_blank">
   <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
 </a>
       </div>
