@@ -1,7 +1,8 @@
 <template lang="">
-  <section class="bg-white dark:bg-gray-900 mb-96 lg:px-16">
-    <div class="grid px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 2xl:px-40">
-      <div class="mr-auto place-self-center lg:col-span-7">
+  <section class="px-4 mb-96 lg:px-16 flex flex-col-reverse my-20 lg:flex-row">
+    <!-- bagian text -->
+      <div class="grid py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 2xl:px-40 lg:w-[50%] lg:mx-0">
+      <div class="mr-auto place-self-center">
         <h1
           class="max-w-2xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-6xl text-primary"
         >
@@ -23,10 +24,24 @@
           Mulai Belajar
         </a>
       </div>
-      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="" alt="" />
+    </div>
+
+    <!-- bagian gambar -->
+    <!-- tah mnh ngoding jang gambar mh dina div ieu jar -->
+    <!-- ges responsif kuurg cobaan gera -->
+    <div class="mx-autolg:w-[50%] lg:flex my-auto mx-auto">
+      <div class="img">
+        <img
+        class="size-max "
+        src="/src/assets/done logo_00000.png"
+        alt=""
+        width="600"
+        height="800"
+        
+      />
       </div>
     </div>
+   
   </section>
 </template>
 <script>
