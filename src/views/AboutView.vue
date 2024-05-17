@@ -6,18 +6,20 @@
     Scroll ke bawah!
   </div>
 
-  <div class="transition-transform transition ease-in-out delay-150">
+ 
     <!---->
-    <div class="scroll-smooth">
-      <div class="scale:-500">
-        <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800" >
+    <div class="scroll-smooth  items-center m-8">
+       <!---->
+        <figure class="md:flex items-center justify-center bg-slate-100  rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800" >
+          
           <img
-            class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100 bg-center "
-            src="/src/assets/foto_about/Gambar WhatsApp 2024-05-16 pukul 11.22.59_9f683f08.jpg"
-            alt=""
-            width="384"
-            height="512"
-          />
+    class="w-24 h-24 md:mx-40 items-center md:p-2 flex mx-auto md:w-48 md:h-auto bg-center"
+    src="/src/assets/foto_about/Gambar WhatsApp 2024-05-16 pukul 11.22.59_9f683f08.jpg"
+    alt=""
+    width="384"
+    height="512"
+/>
+
           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
               <p class="text-lg font-medium text-white ">
@@ -32,25 +34,28 @@
             <a href="https://www.instagram.com/qx.nkp_amv/"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
    style="text-align: center;">
-  <p class="text-stone-50 hover uppercase subpixel-afntialiased w-60 mx-auto">Instagram Saya</p>
+   <div class="text-stone-50 hover uppercase subpixel-afntialiased text-sm px-4 py-2  md:w-60 mx-auto">
+
+     <p >Instagram Saya</p>
+   </div>
 </a>
           </div>
         </figure>
-      </div>
     <!---->
-    <figure class="md:flex bg-slate-100  p-8 md:p-0 bg-slate-800 mb-8">
+    <figure class="md:flex items-center justify-center bg-slate-100  rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800">
       <img
-        class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
+        class="w-24 h-24 md:mx-40 items-center flex mx-auto md:w-48 md:h-auto bg-red-100 bg-center"
         src="/src/assets/foto_about/Gambar WhatsApp 2024-05-11 pukul 18.49.01_d4b86803.jpg"
         alt=""
         width="384"
         height="512"
+        
       />
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
             “tugas saya disini saya menyusun materi dan menyusun laporan,<br />
-            Teruslah maju, lari jika bisa, berjalan jika<br /> perlu, merangkak jika harus, tapi jangan pernah menyerah pada apapun yang kamu hadapi”
+            Teruslah maju, lari jika bisa, berjalan jika perlu, merangkak jika harus, tapi jangan pernah menyerah pada apapun yang kamu hadapi”
           </p>
         </blockquote>
         <figcaption class="font-medium">
@@ -60,7 +65,9 @@
         <a href="https://www.instagram.com/talitharna_?igsh=eXd6YWV2eGY5OWgw"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
    style="text-align: center;">
-  <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
+   <div>
+     <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
+   </div>
 </a>
 
 
@@ -71,17 +78,18 @@
     <!---->
     <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
-        class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100 bg-contain"
+        class="w-24 h-24 md:mx-40 md:p-4 items-center flex mx-auto md:w-48 md:h-auto bg-center"
         src="/src/assets/foto_about/Gambar WhatsApp 2024-05-12 pukul 09.58.15_334a9976.jpg"
         alt=""
         width="384"
         height="512"
+        
       />
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini Saya sebagai pencari konsep sekaligus desainer web,<br />
-            Harapan saya agar website ini bisa menginspirasi pembuat website lainnya sekaligus mengajarkan<br /> kalkulus”
+            “tugas saya disini Saya sebagai pencari konsep sekaligus desainer web,<br />
+            Harapan saya agar website ini bisa menginspirasi pembuat website lainnya sekaligus mengajarkan<br /> kalkulus”
           </p>
         </blockquote>
         <figcaption class="font-medium">
@@ -98,24 +106,25 @@
     <!---->
     <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
-        class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
-        src="/src/assets/foto_about/bertotot.jpg"
+        class="w-24 h-24 md:mx-40 items-center flex mx-auto md:w-48 md:h-auto bg-red-100 bg-center"
+        src="/src/assets/foto_about/20240516_134602.jpg"
         alt=""
         width="384"
         height="512"
+        
       />
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini saya mengembangkan page tentang dan mengembangkannya dengan baik,<br />
-            harapan saya anak muda terus bisa berkembang dan selalu belajar dari kesalahannya”
+            “tugas saya instalasi framework dan setup workspace, serta membuat beberapa komponen dasar.
+            semoga hasil dari project ini bisa bermanfaat.”
           </p>
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-white-500 text-sky-400">Fadhil Gani</div>
           <div class="text-white">membuat page tentang</div>
         </figcaption>
-        <a href="https://www.instagram.com/talitharna_?igsh=eXd6YWV2eGY5OWgw"
+        <a href="https://www.instagram.com/faadilg?igsh=OG5pc3dyZ2c5ZHlv"
         class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
         style="text-align: center;">
        <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
@@ -125,17 +134,18 @@
     <!---->
     <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 bg-slate-800 mb-8">
       <img
-        class="w-24 h-24 md:w-48 md:h-auto  mx-auto bg-red-100"
+        class="w-24 h-24 md:mx-40 items-center flex mx-auto md:w-48 md:h-auto bg-red-100 bg-center"
         src="/src/assets/foto_about/rai.jpg"
         alt=""
         width="384"
         height="512"
+        
       />
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p class="text-lg font-medium text-white">
-            “tugas saya disini saya menambahkan materi yang saya cari dan Memasukannya kedalam kodingan,<br />
-            Semoga tahun ini penuh dengan pembelajaran, pertumbuhan, dan kesempatan baru bagi Anda <br />sebagai mahasiswa.”
+            “tugas saya disini saya menambahkan materi yang saya cari dan Memasukannya kedalam kodingan,
+            Semoga tahun ini penuh dengan pembelajaran, pertumbuhan, dan kesempatan baru bagi Anda sebagai mahasiswa.”
           </p>
         </blockquote>
         <figcaption class="font-medium">
@@ -198,18 +208,11 @@
   
 </div>
 
-</div>
+
 
 </template>
 
 <style>
-.scale-500 figure:hover {
-  transform: scale(1.1);
- } /* Adjust the scale factor as needed */
- .element {
-  transition: transform 0.3s ease; /* Efek transisi untuk perubahan transformasi */
-}
-
 .my-8 {
   text-align: center;
   font-weight: bold;
@@ -265,5 +268,6 @@ button[type="button"]:hover {
         transform: scale(1.1);
     }
 }
+
 
 </style>
