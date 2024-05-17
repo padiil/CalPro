@@ -2,7 +2,7 @@
   <!-- Materi Vektor -->
   <div class="materi-vektor mx-auto mb-10 max-w-sm">
     <div class="text-2xl font-medium text-black text-center mb-3">Perkalian Vektor</div>
-    <div class="mb-5 space-y-4">
+    <div class="mb-10 mt-5 space-y-4">
       <h2 class="text-xl font-medium text-black">Dot Product</h2>
       <p>
         Perkalian dot atau titik disebut juga perkalian skalar (scalar product). Hal itu dikarenakan
@@ -28,7 +28,7 @@
         <img
           src="/src/assets/foto_rumus/cross-product.png"
           alt="cross-product"
-          style="width: 600px"
+          style="width: 800px"
         />
       </div>
     </div>
