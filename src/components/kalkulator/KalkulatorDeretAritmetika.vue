@@ -4,10 +4,10 @@
     <div class="p-6 max-w-sm mx-auto bg-white rounded-xl border flex items-center space-x-4">
       <div>
         <div class="text-xl font-medium text-black">Deret Aritmatika</div>
-        <p class="text-gray-500">Masukkan nilai awal, perbedaan, dan nomor ke-n.</p>
+        <p class="text-gray-500">Masukkan suku pertama, selisih, dan suku ke-n.</p>
 
         <div class="mt-4 flex justify-between items-center">
-          <label for="Nilai_awal">Nilai Awal : </label>
+          <label for="Nilai_awal">Suku pertama : </label>
           <input
             v-model="firstNumber"
             type="number"
@@ -16,7 +16,7 @@
           />
         </div>
         <div class="mt-4 flex justify-between items-center">
-          <label for="Perbedaan">Perbedaan : </label>
+          <label for="Perbedaan">Selisih : </label>
           <input
             v-model="difference"
             type="number"
@@ -25,12 +25,12 @@
           />
         </div>
         <div class="mt-4 flex justify-between items-center">
-          <label for="Nomor_ke-n">Nomor ke-n : </label>
+          <label for="Nomor_ke-n">Suku ke-n : </label>
           <input v-model="n" type="number" id="Nomor ke-n" class="p-2 border rounded w-[55%]" />
         </div>
         <div class="mt-4">
           <p>Deret: {{ sequence }}</p>
-          <p>Nilai ke-n: {{ nthValue }}</p>
+          <p>Nilai suku ke-n: {{ nthValue }}</p>
           <p>Penjumlahan deret: {{ sum }}</p>
         </div>
       </div>
