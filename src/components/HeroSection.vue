@@ -1,5 +1,5 @@
 <template lang="">
-  <section class="px-4 mb-96 lg:px-16 flex flex-col-reverse my-20 lg:flex-row">
+  <section class="px-4 lg:px-16 flex flex-col-reverse my-20 lg:flex-row">
     <!-- bagian text -->
       <div class="grid py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 2xl:px-40 lg:w-[50%] lg:mx-0">
       <div class="mr-auto place-self-center">
@@ -18,7 +18,7 @@
           Platform belajar kalkulus yang membantu kamu untuk memahami konsep kalkulus dengan mudah
         </p>
         <a
-          href="#lesson"
+          href="#carousel"
           class="px-4 py-2 mt-4 text-white bg-secondary hover:bg-orange-600 rounded-md hover:bg-primary-dark"
         >
           Mulai Belajar
@@ -27,8 +27,6 @@
     </div>
 
     <!-- bagian gambar -->
-    <!-- tah mnh ngoding jang gambar mh dina div ieu jar -->
-    <!-- ges responsif kuurg cobaan gera -->
     <div class="mx-autolg:w-[50%] lg:flex my-auto mx-auto">
       <div class="img">
         <img

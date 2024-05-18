@@ -3,9 +3,9 @@
     <div class="p-6 max-w-sm mx-auto bg-white rounded-xl border flex items-center space-x-4">
       <div>
         <div class="text-xl font-medium text-black">Deret Geometri</div>
-        <p class="text-gray-500">Masukkan nilai awal, rasio, dan nomor ke-n.</p>
+        <p class="text-gray-500">Masukkan suku pertama, rasio, dan suku ke-n.</p>
         <div class="mt-4 flex justify-between items-center">
-          <label for="Nilai_awal">Nilai awal : </label>
+          <label for="Nilai_awal">Suku pertama : </label>
           <input
             v-model="firstNumber"
             type="number"
@@ -18,12 +18,12 @@
           <input v-model="ratio" type="number" id="Rasio" class="p-2 border rounded w-[55%]" />
         </div>
         <div class="mt-4 flex justify-between items-center">
-          <label for="Nomor_ke-n">Nomor ke-n : </label>
-          <input v-model="n" type="number" id="Nomor ke-n" class="p-2 border rounded w-[55%]" />
+          <label for="Nomor_ke-n">Suku ke-n : </label>
+          <input v-model="n" type="number" id="suku ke-n" class="p-2 border rounded w-[55%]" />
         </div>
         <div class="mt-4">
           <p>Deret: {{ sequence }}</p>
-          <p>Nilai ke-n: {{ nthValue }}</p>
+          <p>Nilai suku ke-n: {{ nthValue }}</p>
           <p>Penjumlahan deret: {{ sum }}</p>
         </div>
       </div>
