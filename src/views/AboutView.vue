@@ -107,7 +107,9 @@
         class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
         style="text-align: center;"
         target="_blank">
-       <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
+        <div>
+          <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
+        </div>
      </a>
       </div>
     </figure>
@@ -130,13 +132,15 @@
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-white-500 text-sky-400">Fadhil Gani</div>
-          <div class="text-white">framework dan setup workspace</div>
+          <div class="text-white">setup workspace dan membuat fungsi fungsi logika</div>
         </figcaption>
         <a href="https://www.instagram.com/faadilg?igsh=OG5pc3dyZ2c5ZHlv"
         class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
         style="text-align: center;"
         target="_blank">
-       <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
+        <div>
+          <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
+        </div>
      </a>
       </div>
     </figure>
@@ -165,7 +169,9 @@
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
    style="text-align: center;"
    target="_blank">
-  <p class="text-stone-50 hover uppercase subpixel-antialiased w-60 mx-auto">Instagram Saya</p>
+   <div>
+    <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
+  </div>
 </a>
       </div>
       
