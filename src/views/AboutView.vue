@@ -10,38 +10,42 @@
     <!---->
     <div class="scroll-smooth  items-center m-8">
        <!---->
-        <figure class="md:flex items-center justify-center bg-slate-100  rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800" >
-          
-          <img
-    class="w-24 h-24 md:mx-40 items-center md:p-2 flex mx-auto md:w-48 md:h-auto bg-center"
-    src="/src/assets/foto_about/Gambar WhatsApp 2024-05-16 pukul 11.22.59_9f683f08.jpg"
-    alt=""
-    width="384"
-    height="512"
-/>
-
-          <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-            <blockquote>
-              <p class="text-lg font-medium text-white ">
-                “tugas saya adalah mengembangkan page tentang,<br />
-                untuk anak muda terus lah berkembang dan selalu belajar dari kesalahan”
-              </p>
-            </blockquote>
-            <figcaption class="font-medium">
-              <div class="text-white-500 text-sky-400">Fajar Geran Arifin</div>
-              <div class="text-white">membuat page tentang</div>
-            </figcaption>
-            <a href="https://www.instagram.com/qx.nkp_amv/"
-   target="_blank"
+          <figure class="md:flex items-center justify-center bg-slate-100  rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800">
+      <img
+        class="w-24 h-24 md:mx-40 items-center flex mx-auto md:w-48 md:h-auto bg-red-100 bg-center"
+        src="/src/assets/foto_about/Gambar WhatsApp 2024-05-16 pukul 11.22.59_9f683f08.jpg
+        "
+        alt=""
+        width="384"
+        height="512"
+        
+      />
+      <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <blockquote>
+          <p class="text-lg font-medium text-white">
+            “Tugas saya adalah membuat page tentang,<br />
+            Semoga website ini menjadi sumber pembelajaran mahasiswa, sehingga pengguna dapat memperoleh pemahaman yang mendalam.”
+          </p>
+        </blockquote>
+        <figcaption class="font-medium">
+          <div class="text-white-500 text-sky-400">Fajar Geran Arifin</div>
+          <div class="text-white">Membuat page tentang</div>
+        </figcaption>
+        <a href="https://www.instagram.com/qx.nkp_amv/"
    class="bg-sky-500 hover:bg-sky-700 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-block"
-   style="text-align: center;">
-   <div class="text-stone-50 hover uppercase subpixel-afntialiased text-sm px-4 py-2  md:w-60 mx-auto">
-     <p>Instagram Saya</p>
+   style="text-align: center;"
+   target="_blank">
+   
+   <div>
+     <p class="text-stone-50 hover uppercase px-4 py-2 subpixel-antialiased md:w-60 mx-auto">Instagram Saya</p>
    </div>
 </a>
 
-          </div>
-        </figure>
+
+
+      </div>
+      
+    </figure>
     <!---->
     <figure class="md:flex items-center justify-center bg-slate-100  rounded-xl p-8 md:p-0 bg-slate-800 mb-8 bg-slate-800">
       <img
