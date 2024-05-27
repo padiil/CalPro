@@ -1,7 +1,7 @@
 <template lang="">
   <section class="px-4 lg:px-16 flex flex-col-reverse my-20 lg:flex-row">
     <!-- bagian text -->
-      <div class="grid py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 2xl:px-40 lg:w-[50%] lg:mx-0">
+    <div class="grid py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 2xl:px-40 lg:w-[50%] lg:mx-0">
       <div class="mr-auto place-self-center">
         <h1
           class="max-w-2xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-6xl text-primary"
@@ -18,7 +18,7 @@
           Platform belajar kalkulus yang membantu kamu untuk memahami konsep kalkulus dengan mudah
         </p>
         <a
-          href="#carousel"
+          id="scrollButton"
           class="px-4 py-2 mt-4 text-white bg-secondary hover:bg-orange-600 rounded-md hover:bg-primary-dark"
         >
           Mulai Belajar
@@ -30,19 +30,23 @@
     <div class="mx-autolg:w-[50%] lg:flex my-auto mx-auto">
       <div class="img">
         <img
-        class="size-max "
-        src="/src/assets/done logo_00000.png"
-        alt=""
-        width="600"
-        height="800"
-        
-      />
+          class="size-max"
+          src="/src/assets/done logo_00000.png"
+          alt=""
+          width="600"
+          height="800"
+        />
       </div>
     </div>
-   
   </section>
 </template>
 <script>
-export default {}
+export default {
+  mounted() {
+    document.getElementById('scrollButton').addEventListener('click', () => {
+      document.getElementById('carousel').scrollIntoView({ behavior: 'smooth' })
+    })
+  }
+}
 </script>
 <style lang=""></style>
