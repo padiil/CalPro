@@ -3,7 +3,7 @@
   <div class="opacity my-24">
   <div class="my-8 mt-6 text-2xl flex items-center justify-center animate-bounce">
     <img src="/src/assets/foto_about/bigtdownarrow_83688.png" alt="Gambar" class="w-8 h-8 mr-2">
-    Scroll ke bawah!
+    Tim Kami!
   </div>
 
  
