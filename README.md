@@ -1,8 +1,6 @@
 # CalPro
 
-CalPro adalah platform pembelajaran kalkulus yang menyediakan fitur materi, kuis, dan kalkulator untuk setiap materi kalkulus. Tujuan dari proyek ini adalah untuk menyediakan platform belajar materi kalkulus yang mudah dan interaktif berbasis website. Untuk menuju website nya silahkan klik berikut 
-
-padiil.github.io/CalPro/
+CalPro adalah platform pembelajaran kalkulus yang menyediakan fitur materi, kuis, dan kalkulator untuk setiap materi kalkulus. Tujuan dari proyek ini adalah untuk menyediakan platform belajar materi kalkulus yang mudah dan interaktif berbasis website. Untuk menuju website nya silahkan [Klik disini](https://padiil.github.io/CalPro/)
 
 ## Fitur Utama
 
